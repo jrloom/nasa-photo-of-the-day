@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="container">
       <Header date={date} />
-      <Photos title={title} url={photo} explanation={explanation} />
+      <Photos title={title} url={photo} explanation={explanation} copyright={copyright} />
     </div>
   );
 }
