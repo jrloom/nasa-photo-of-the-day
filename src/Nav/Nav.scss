@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  margin: 2rem auto 0;
+  &__btn {
+    all: unset;
+    height: 5rem;
+    width: 5rem;
+    padding: 0.5rem;
+    background: darkgray;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 1);
+    border-radius: 100%;
+    font-size: 1.6rem;
+    font-weight: 100;
+    text-align: center;
+    transition: background 300ms, color 200ms, box-shadow 300ms, font-size 200ms;
+    &:hover {
+      background: dimgray;
+      color: white;
+    }
+    &:active {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 1) inset;
+      font-size: 1.5rem;
+    }
+  }
+}
