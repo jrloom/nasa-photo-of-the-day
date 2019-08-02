@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Img(props) {
-  return <img className="display__img" src={props.url} />;
+  return <img className="display__img" src={props.url} alt="SPACE!" />;
 }
