@@ -17,11 +17,7 @@ import { Container, Header } from "semantic-ui-react";
 
 const headerContainer = props => {
   return (
-    <Container
-      style={{
-        alignSelf: "flex-start"
-      }}
-    >
+    <Container>
       <Header
         as="h1"
         style={{
